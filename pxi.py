@@ -10,8 +10,12 @@ ViBoolean = ctypes.c_bool
 ViConstString = ctypes.c_char_p
 ViSession = ctypes.c_uint32
 ViAttr = ctypes.c_uint32
+ViStatus = ctypes.c_int
+ViInt16 = ctypes.c_int16
 ViInt32 = ctypes.c_int
+ViInt64 = ctypes.c_int64
 ViChar = ctypes.c_char
+ViReal64 = ctypes.c_double
 
 
 def KtM960x_InitWithOptions(ResourceName, IdQuery, Reset, OptionsString, Vi=None):
