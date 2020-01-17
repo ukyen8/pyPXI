@@ -27,7 +27,7 @@ KtM960x_close(VISESSION)  # close PXI session
 
 Update:
 
-Currently, I only transform the following function, others will keep updating.
+Currently, I transform the following function, others will keep updating.
 
 KtM960x_InitWithOptions
 KtM960x_GetAttributeViString
@@ -35,3 +35,15 @@ KtM960x_SetAttributeViString
 KtM960x_GetAttributeViInt32
 KtM960x_SetAttributeViInt32
 KtM960x_close
+KtM960x_GetAttributeViReal64
+KtM960x_SetAttributeViReal64
+KtM960x_GetAttributeViBoolean
+KtM960x_SetAttributeViBoolean
+KtM960x_Initiate
+KtM960x_TransientInitiate
+KtM960x_SystemWaitForOperationComplete
+KtM960x_MeasurementMeasure
+KtM960x_reset
+KtM960x_MeasurementFetchArrayData
+
+
